@@ -1,0 +1,263 @@
+<?xml version='1.0' encoding='utf-8'?>
+<MixxxControllerPreset schemaVersion="1" mixxxVersion="">
+    <info/>
+    <controller id="DN-S3700">
+        <scriptfiles/>
+        <controls>
+            <control>
+                <group>[Channel1]</group>
+                <key>loop_out</key>
+                <description>MIDI Learned from 14 messages.</description>
+                <status>0x94</status>
+                <midino>0x39</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>loop_in</key>
+                <description>MIDI Learned from 12 messages.</description>
+                <status>0x94</status>
+                <midino>0x37</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Master]</group>
+                <key>maximize_library</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x94</status>
+                <midino>0x02</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>reloop_toggle</key>
+                <description>MIDI Learned from 16 messages.</description>
+                <status>0x94</status>
+                <midino>0x40</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_backward</key>
+                <description>MIDI Learned from 6 messages.</description>
+                <status>0x94</status>
+                <midino>0x11</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x94</status>
+                <midino>0x43</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>beatjump_forward</key>
+                <description>MIDI Learned from 8 messages.</description>
+                <status>0x94</status>
+                <midino>0x10</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x94</status>
+                <midino>0x08</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x42</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate</key>
+                <description>MIDI Learned from 585 messages.</description>
+                <status>0xE4</status>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveUp</key>
+                <description>MIDI Learned from 216 messages.</description>
+                <status>0xB4</status>
+                <midino>0x54</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveDown</key>
+                <status>0xB4</status>
+                <midino>0x54</midino>
+                <options>
+                    <invert/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_down</key>
+                <status>0x84</status>
+                <midino>0x09</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Library]</group>
+                <key>MoveFocusForward</key>
+                <description>MIDI Learned from 4 messages.</description>
+                <status>0x94</status>
+                <midino>0x30</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>LoadSelectedTrack</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x94</status>
+                <midino>0x28</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>rate_temp_up</key>
+                <status>0x84</status>
+                <midino>0x08</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <status>0x84</status>
+                <midino>0x42</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+        </controls>
+        <outputs>
+            <output>
+                <group>[Channel1]</group>
+                <key>play</key>
+                <description>Start platter depending on playback.</description>
+                <status>0xB4</status>
+                <midino>0x66</midino>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <description>Blink CUE button on track pause.</description>
+                <status>0xB4</status>
+                <midino>0x4C</midino>
+                <on>0x26</on>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <description>Light on CUE button on playback.</description>
+                <status>0xB4</status>
+                <midino>0x4A</midino>
+                <on>0x26</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <description>Blink play button on track pause.</description>
+                <status>0xB4</status>
+                <midino>0x4C</midino>
+                <on>0x27</on>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>play_indicator</key>
+                <description>Light on play button on playback.</description>
+                <status>0xB4</status>
+                <midino>0x4A</midino>
+                <on>0x27</on>
+                <minimum>1</minimum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>Stop platter depending on playback.</description>
+                <status>0xB4</status>
+                <midino>0x66</midino>
+                <on>0x00</on>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>
+                    Blink CUE button when not on a CUE point and when not being
+                    in a CUE playback.
+                </description>
+                <status>0xB4</status>
+                <midino>0x4C</midino>
+                <on>0x26</on>
+                <maximum>0</maximum>
+            </output>
+            <output>
+                <group>[Channel1]</group>
+                <key>cue_default</key>
+                <description>
+                    Light on CUE button when the CUE playback is enabled
+                    (CDJ CUE hold down style).
+                </description>
+                <status>0xB4</status>
+                <midino>0x4A</midino>
+                <on>0x26</on>
+                <minimum>1</minimum>
+            </output>
+        </outputs>
+    </controller>
+</MixxxControllerPreset>
